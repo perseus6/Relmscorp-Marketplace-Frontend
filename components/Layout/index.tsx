@@ -10,7 +10,7 @@ const Layout = ({ children }: IMainProps): JSX.Element => {
   return (
     <div>
       <Header />
-      <div className='h-full'>{children}</div>;
+      <div className='h-full'>{children}</div>
       <Footer />
     </div>
   );

@@ -18,6 +18,7 @@ module.exports = {
                 background: "#2B2B2B",
                 "card-background": "#3B3B3B",
                 primary: "#A259FF",
+                'font-secondary': '#CCCCCC'
             }
         },
     },
