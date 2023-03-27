@@ -4,17 +4,17 @@ interface ButtonProps {
   children: React.ReactNode;
 }
 
-const Button = (props: ButtonProps): JSX.Element => {
+const CustomButton = (props: ButtonProps): JSX.Element => {
   const { outline = true, classNames, children } = props;
   return (
     <button
       className={`${classNames ?? ''} ${
         outline ? 'bg-primary text-white' : 'bg-white text-primary'
-      } rounded-2xl`}
+      } rounded-2xl hover:opacity-90 active:brightness-125`}
     >
       {children}
     </button>
   );
 };
 
-export default Button;
+export default CustomButton;

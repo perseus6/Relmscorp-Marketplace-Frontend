@@ -1,4 +1,4 @@
-import Button from 'components/Button';
+import CustomButton from 'components/CustomButton';
 
 const Subscribe = (): JSX.Element => (
   <div className='relative'>
@@ -6,9 +6,9 @@ const Subscribe = (): JSX.Element => (
       className='h-14 w-full rounded-2xl outline-none pl-6 pr-48 text-black'
       placeholder='Enter your email here'
     />
-    <Button classNames='absolute -right-1 px-12 py-4 font-semibold'>
+    <CustomButton classNames='absolute -right-1 px-12 py-4 font-semibold'>
       Subscribe
-    </Button>
+    </CustomButton>
   </div>
 );
 export default Subscribe;

@@ -14,7 +14,7 @@ const Header = (): JSX.Element => {
         </Link>
         <div className='flex justify-between items-center gap-10'>
           <div className='flex justify-end items-center gap-10'>
-            {MenuItems.map((item, index) => (
+            {MenuItems.map((item) => (
               <div key={item.id} className='cursor-pointer'>
                 <Link href={item.link}>{item.title}</Link>
               </div>
