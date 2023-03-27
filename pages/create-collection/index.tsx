@@ -9,7 +9,7 @@ const CreateCollection = (): JSX.Element => {
   const [bannerFile, setBannerFile] = useState<any>();
 
   return (
-    <div className='flex flex-col gap-5 w-3/5 items-center mx-auto py-20'>
+    <div className='flex flex-col gap-5 w-3/5 items-center mx-auto pt-10 pb-20'>
       <h1 className='font-semibold text-3xl pb-8'>Create a New Collection</h1>
       <div className='flex justify-around w-full'>
         <CustomDropzone
