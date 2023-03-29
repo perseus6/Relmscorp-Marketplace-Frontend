@@ -1,5 +1,6 @@
 import MenuItems from './config';
 import Link from 'next/link';
+import WallectConnectButton from './WallectConnectButton';
 
 const Header = (): JSX.Element => {
   return (
@@ -20,9 +21,10 @@ const Header = (): JSX.Element => {
               </div>
             ))}
           </div>
-          <div className='bg-primary px-5 py-3 rounded-2xl hover:bg-white hover:text-primary transition-all duration-300 cursor-pointer'>
+          {/* <div className='bg-primary px-5 py-3 rounded-2xl hover:bg-white hover:text-primary transition-all duration-300 cursor-pointer'>
             Connect Wallet
-          </div>
+          </div> */}
+          <WallectConnectButton />
         </div>
       </div>
     </header>
